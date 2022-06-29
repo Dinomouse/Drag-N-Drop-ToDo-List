@@ -1,4 +1,4 @@
-import { React, useEffect, useState } from "react";
+import { React, useState } from "react";
 import Input from "../Input";
 import List from "../List";
 import "./index.css";
