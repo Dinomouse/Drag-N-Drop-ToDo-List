@@ -32,7 +32,6 @@ li {
   padding: 10px;
   padding-left: 0px;
   text-align: start;
-
   margin: 10px;
   display: flex;
   justify-content: flex-end;
@@ -84,7 +83,7 @@ input {
   background-color: rgb(255, 255, 255);
   opacity: 100%;
   display: flex;
-  box-shadow: 2px 2px 2px 2px rgb(178, 207, 216);
+  box-shadow: #74c69d 4px 4px 0 0, #000 4px 4px 0 1px;
   text-align: start;
 }
 
@@ -119,18 +118,34 @@ input {
 }
 
 .fa-square-xmark {
+  color: black;
+}
+
+.fa-square-xmark:hover {
   color: rgb(255, 0, 0);
 }
 
 .fa-pen-to-square {
-  color: rgb(255, 242, 0);
+  color: black;
+}
+
+.fa-pen-to-square:hover {
+  color: rgb(240, 157, 24);
 }
 
 .fa-square-check {
+  color: black;
+}
+
+.fa-square-check:hover {
   color: rgb(4, 181, 4);
 }
 
 .fa-floppy-disk {
+  color: rgb(255, 255, 255);
+}
+
+.fa-floppy-disk:hover {
   color: rgb(0, 0, 0);
 }
 
@@ -147,9 +162,14 @@ input {
   border-radius: 10px;
   margin-top: 10px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgba(50, 68, 187, 0.72);
+  background-color: #74c69d;
   border-color: black;
+  border-style: solid;
   font-size: 20px;
+}
+
+#submit-button:hover {
+  background-color: white;
 }
 
 #test-square {
