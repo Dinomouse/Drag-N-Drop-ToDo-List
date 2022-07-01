@@ -85,6 +85,7 @@ function App() {
         handleEdit={handleEdit}
         editText={editText}
         isEdit={isEdit}
+        setlistToDo={setlistToDo}
       ></List>
     </div>
   );
