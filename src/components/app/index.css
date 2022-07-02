@@ -45,6 +45,10 @@ svg {
   padding-right: -70px;
 }
 
+svg:hover {
+  cursor: pointer;
+}
+
 li button {
   margin-left: 10px;
   border-radius: 5px;
@@ -99,11 +103,15 @@ input {
 }
 
 #edit-input {
-  width: 400px;
+  width: 600px;
   height: 30px;
   padding: 10px;
   padding-left: 20px;
   margin-top: 10px;
+  border-color: rgba(0, 0, 0, 0.72);
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 #edit-button {
@@ -155,7 +163,7 @@ input {
 }
 
 .fa-floppy-disk:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(210, 206, 206);
 }
 
 #form {
