@@ -1,3 +1,7 @@
-# todo-list
+# Drag-N-Drop-ToDo-List
 
-Documentation currently in progress...
+## Functionality
+
+A to-do list with the ability to add, complete, edit, delete AND DRAG N DROP. 
+
+## Screenshots
